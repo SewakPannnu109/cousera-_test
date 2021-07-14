@@ -16,10 +16,9 @@ body{
 }
 .kn,.km,.ko{
 border:1px solid black;
-width:30%;
+
 background-color: rgb(20, 129, 129);
 float: left;
-margin: 1.66666667%;
 border-collapse: collapse;
 padding: 10px;
 padding-top: 0px;
@@ -50,18 +49,29 @@ background-color: rgb(185, 116, 51);
 color: midnightblue;
 
 }
-@media  (max-width: 991px ) and (min-width:768px) {
-   .kn{
-    
-        width:45%;
-        background-color: rgb(20, 129, 129);
-        float: left;
-        margin: 2.5%;
-        border-collapse: collapse;
+
+
+@media  screen and (max-width: 767px) {
+
+    .km,.ko,.kn
+    {
+        width: 90%;
+        margin:5%;
         margin-bottom: 20px;
-        padding: 10px;
-        padding-top: 0px;
-        padding-right: 0;
+    }
+
+  }
+  
+
+
+
+@media  screen  and (max-width: 991.5px) and (min-width: 768px){
+   .kn{
+        width:45%;
+        
+      
+        margin: 2.5%;
+       
         }
 
 
@@ -81,14 +91,10 @@ color: midnightblue;
 
 
 }
-
-@media (max-width: 767px) {
-
-    .km,.ko,.kn
-    {
-        width: 90%;
-        margin:5%;
-        margin-bottom: 20px;
-    }
-
-  }
+@media  screen and (min-width: 992px)
+{
+.kn,.ko,.km{
+width:30%;
+margin: 1.66666667%;
+}
+}
