@@ -1,0 +1,94 @@
+p{
+    color: rgb(3, 87, 87);
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: 140px;
+    margin-bottom: 90px;
+    font-weight: 700;
+}
+body{
+    background-color: rgb(171, 231, 201);
+}
+*{ 
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.kn,.km,.ko{
+border:1px solid black;
+width:30%;
+background-color: rgb(20, 129, 129);
+float: left;
+margin: 1.66666667%;
+border-collapse: collapse;
+padding: 10px;
+padding-top: 0px;
+padding-right: 0;
+margin-bottom: 20px;
+}
+.main{
+border: black 1px solid;
+float: right;
+font-size: 1.25em;
+padding: 7px;
+
+}
+div{
+    clear: both;
+}
+#p{
+    background-color: rgb(156, 126, 86);
+    color: cornsilk;
+}
+#u{
+    background-color: crimson;
+    color: cyan;
+}
+#l{
+
+background-color: rgb(185, 116, 51);
+color: midnightblue;
+
+}
+@media  (max-width: 991px ) and (min-width:768px) {
+   .kn{
+    
+        width:45%;
+        background-color: rgb(20, 129, 129);
+        float: left;
+        margin: 2.5%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        padding: 10px;
+        padding-top: 0px;
+        padding-right: 0;
+        }
+
+
+    .km{
+      
+        width:45%;
+       
+        margin: 2.5%;
+       
+        }
+
+    .ko{
+        width:95%;
+        margin: 2.5%;
+      
+        }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .km,.ko,.kn
+    {
+        width: 90%;
+        margin:5%;
+        margin-bottom: 20px;
+    }
+
+  }
